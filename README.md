@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Student Management System
 
-## Getting Started
+This is a **web application built with Next.js**, designed as a **Student Management System** for a university.  
+It allows admins to **create student accounts** and **add exam results**, all connected to a **Supabase** backend.
 
-First, run the development server:
+> ⚠️ This is a personal learning project, not an official university tool.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ✍️ **Create new student users** (accounts stored in Supabase Auth)
+- 📝 **Add exam results** for students
+- 🔒 Connected securely to Supabase (Auth + Database)
+- Responsive design with Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js** (React framework with SSR and API routes)
+- **TypeScript** for robust type safety
+- **Tailwind CSS** for modern styling
+- **Supabase** for:
+  - Authentication (managing student logins)
+  - PostgreSQL Database (storing exam results & profiles)
+  - API (for direct DB operations)
